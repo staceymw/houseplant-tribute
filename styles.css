@@ -1,0 +1,27 @@
+* {
+    font-family: 'Roboto', 'Tahoma', sans-serif;
+}
+
+.div-one, .footer {
+    background-color: #1F2937;
+}
+
+.row-of-houseplants {
+    width: 40%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
