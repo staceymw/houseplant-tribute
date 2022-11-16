@@ -84,7 +84,7 @@ a {
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
@@ -92,12 +92,55 @@ h1 {
     margin-bottom: 0;
 }
 
-.small-plants {
-    width: 100px;
-    height: 100px;
+.div-two {
+    text-align: center;
+}
+
+
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 36px;
+}
+
+h2 {
+    margin: 36px auto;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+
+.small-plants-images {
+    width: 125px;
+    height: 125px;
     border-radius: 10px;
 }
 
+.small-plants-info {
+    max-width: 125px;
+}
+
+.div-three {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 36px;
+}
+
+.quote {
+    padding: 64px 150px;
+}
+
+.bold {
+    font-weight: bold;
+    justify-self: center;
+}
 
 
 
