@@ -144,21 +144,53 @@ h2 {
 
 
 
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    max-width: 60%;
+    margin: 64px auto;
+    padding: 34px 64px 0;
+    border-radius: 10px;
+}
 
+.bottom-button-container {
+    display: flex;
+    align-content: center;
+}
 
+.call-bold {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
 
+.call-reg {
+    font-size: 18px;
+    color: #F9FAF8;
+}
 
+.bottom-button {
+    max-width: max-content;
+    padding: 8px 24px;
+    margin-bottom: 48px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    box-shadow: 0;
+    border: none;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+}
 
+.footer-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+}
 
